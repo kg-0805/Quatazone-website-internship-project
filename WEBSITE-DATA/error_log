@@ -1,0 +1,10 @@
+[19-Mar-2020 05:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __td() in /home/quantazone/public_html/wp-content/themes/Newspaper/comments.php:140
+Stack trace:
+#0 /home/quantazone/public_html/wp-includes/class-walker-comment.php(179): td_comment(Object(WP_Comment), Array, 1)
+#1 /home/quantazone/public_html/wp-includes/class-wp-walker.php(144): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#2 /home/quantazone/public_html/wp-includes/class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 /home/quantazone/public_html/wp-includes/class-wp-walker.php(387): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#4 /home/quantazone/public_html/wp-includes/comment-template.php(2177): Walker->paged_walk(Array, '5', 0, 0, Array)
+#5 /home/quantazone/public_html/wp-content/themes/Newspaper/comments.php(25): wp_list_comments(Array)
+#6 /home/quantazone/public_html/wp-includes/comment-template.php(1508): require('/home/quantazon...')
+#7 /home/quantazone/public in /home/quantazone/public_html/wp-content/themes/Newspaper/comments.php on line 140
